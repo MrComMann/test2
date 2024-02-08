@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 export default function Home() {
-  const [bg, setBg] = useState('transparent')
+  const [bg, setBg] = useState('white')
 
   const bgChange = (color) => {
     setBg(color);
